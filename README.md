@@ -29,4 +29,45 @@ This command will install all the necessary Python packages defined in requireme
 
 ## Usage 
 
-To run the project, navigate to the script of interest and run it with Python. Here’s an example of how to execute a script:
+The primary purpose of the provided scripts is to reproduce the results of our experiments with various machine learning models. To do this, follow these steps:
+
+1. **Unzip the Data Files:**
+Navigate to the Data folder and unzip the provided CSV files:
+   ```bash
+   cd Data
+   unzip Final_version_cleaned.csv.zip
+   unzip model_data.csv.zip
+
+2. **Run the Scripts:**
+Return to the main project directory and run the Jupyter notebooks to train the models:
+   ```bash
+   cd ..
+   jupyter notebook randomforest.ipynb
+   # Run the above command for each notebook
+   jupyter notebook Log_Regression_ensemble.ipynb
+   jupyter notebook 6.XG_Boost.ipynb
+   
+These steps will train the models using the data extracted from the zipped files and should reproduce the experiment results as documented in the notebooks.
+
+### Example of Use
+
+After setting up and activating the project as described above, the Jupyter notebooks can be used to train the models and visualize the results. Each notebook corresponds to a different modeling approach (Random Forest, Logistic Regression Ensemble, and XG Boost), providing insights into their performance and accuracy regarding credit risk prediction.
+
+## Contributing
+
+Contributions to the Credit Risk Default Model are welcome. Here’s how you can contribute:
+
+Filing an issue: Use GitHub Issues to report bugs, request features, or ask for clarification on the documentation.
+Submitting a pull request: If you want to add features or resolve issues, you can make changes to the project and submit a pull request.
+Please adhere to this project's code style guidelines, including commenting on your code and using meaningful variable names.
+
+## Libraries and Tools Used
+
+Pandas: For data manipulation and analysis.
+Scikit-Learn: For implementing machine learning algorithms.
+Matplotlib: For creating static, interactive, and animated visualizations in Python.
+Numpy: Library for numerical calculations.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
