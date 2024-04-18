@@ -51,7 +51,7 @@ These steps will train the models using the data extracted from the zipped files
 
 ### Example of Use
 
-After setting up and activating the project as described above, the Jupyter notebooks can be used to train the models and visualize the results. Each notebook corresponds to a different modeling approach (Random Forest, Logistic Regression Ensemble, and XG Boost), providing insights into their performance and accuracy regarding credit risk prediction.
+After setting up and activating the project as described above, the Jupyter notebooks can be used to train the models and visualize the results. Each notebook corresponds to a different modeling approach (Random Forest, Logistic Regression Ensemble, and XG Boost), providing insights into their performance and accuracy regarding credit risk prediction. Once trained the models can also be applied to new data for predictions. 
 
 ## Contributing
 
