@@ -59,7 +59,6 @@ Contributions to the Credit Risk Default Model are welcome. Here’s how you can
 
 Filing an issue: Use GitHub Issues to report bugs, request features, or ask for clarification on the documentation.
 Submitting a pull request: If you want to add features or resolve issues, you can make changes to the project and submit a pull request.
-Please adhere to this project's code style guidelines, including commenting on your code and using meaningful variable names.
 
 ## Libraries and Tools Used
 
